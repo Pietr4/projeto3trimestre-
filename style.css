@@ -1,22 +1,116 @@
 body {
-
-    background-color: rgb(224, 145, 182);
+   background-color: rgba(250, 189, 219, 0.699);
 }
 
-.wrapapper {
-
+.wrapper {
     height: 420px;
     width: 654px;
-    margin: 50px auto;
-    border-radius: 7px 7px 7px 7px;
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
-    box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
-
+    margin: 138px auto;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 20px 35px 15px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 20px 35px 15px rgba(0,0,0,0.15);
+    box-shadow: 0px 20px 35px 15px rgba(0,0,0,0.15);
 }
 
-#download{
-float: left;
-height: 420px;
-width: 327px;
+#fone{
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 7px 0 0 7px;
+   
+}
+
+.produtoinfo{
+    float: left;
+    height: 350px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+
+.produtotexto{
+    height: 410px;
+    width: 310px;
+}
+
+.produtotexto h1{
+    margin: 0 0 0 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    color: #181414;
+}
+
+.produtotexto h1,
+.botaopreço p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.produtotexto h2{
+    margin: 0 0 50px 68px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #181414;
+    letter-spacing: 0.2em;
+}
+
+.produtotexto p{
+    height: 110px;
+    margin: 0 0 0 20px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(5, 5, 5);
+    line-height: 1,2em;
+    font-size: 14px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.botaopreço{ 
+    height: 110px;
+    width: 25px;
+    margin-top: 66px;
+    position: static;
+}
+
+.botaopreço p{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    height: 40px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 38px;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #474747;  
+}
+
+.span{
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+}
+
+.botaopreço button{
+    float: right;
+    display: inline-block;
+    height: 20px;
+    margin: 0 20px 0 40px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    text-transform: uppercase;
+    letter-spacing: 0,2em;
+    color: #fff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+}
+
+.botaopreço button:hover{
+    background-color: #79b0a1;
 }
